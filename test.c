@@ -17,10 +17,8 @@ int helper1(int n, int m, int sum); //申明子函数
 
 
 int main(){ //this is the main program //主函数部分
-    int n,m,sum; //declare 3 variables named n, m, and sum
-    n = 1;  // assign 1 to n
-    m = 2;  // assign 2 to m
-    sum = 3; // assign 3 to sum
+    int n=1,m=2,sum=3; //declare 3 variables named n, m, and sum, with value 1,2,3
+
     if (helper1(n,m,sum)) { // if n + m is equal to sum then the following code will be excuted
         printf("the sum of n and m is %d", sum); //print onto the screen
         return 0; //return 0 'success'
